@@ -9,8 +9,10 @@
           !store.body
       ) return 'Not valid store';
 
+      // Create HTML structure
       const title = `<h1>${store.title}</h1>`;
       const body = `<p>${store.body}</p>`;
+
       return `${title}${body}`;
    }
 
