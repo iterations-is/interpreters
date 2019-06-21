@@ -22,7 +22,7 @@
       ) return 'Not valid store';
 
 
-      const sum = store.body.reduce((acc, val) => acc + val);
+      const sum = arr.reduce((acc, val) => acc + val);
       let bodyText = '';
 
       for (let number of arr)
