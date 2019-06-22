@@ -26,10 +26,9 @@
       let bodyText = '';
 
       for (let number of arr)
-         bodyText += `${number} +`;
+         bodyText += `${number} + `;
 
-      bodyText.slice(0, -1);
-      bodyText += `= ${sum}`;
+      bodyText = `${bodyText.slice(0, -2)}= ${sum}`;
 
       // Create HTML structure
       const title = `<h1>${store.title}</h1>`;
